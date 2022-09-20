@@ -1,0 +1,77 @@
+@media (min-width: 360px){
+    .desktop {
+        display: none;
+    }
+
+    .cabecalho {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding: 1em;
+    }
+    
+    .cabacalho__logo {
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        width: 130px;
+    }
+    
+    .menu-lateral {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #FEFEFE;
+        opacity: 80%;
+        width: 100vw;
+        position: absolute;
+        top: -100vh;
+        transition: .25s;
+        margin-top: 4.7em;
+    }
+    
+    
+    .menu-lateral--ativo {
+        top: 0;
+        transition: .25s;
+    }
+    
+    .menu-lateral__link {
+        height: 3em;
+        color: #926123;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    
+    .menu-lateral__link::before {
+        content: "";
+        width: 24px;
+        height: 24px;
+        font-size: 24px;
+        position: absolute;
+    }
+}
+
+@media (min-width: 1366px) {
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        align-items: center;
+        background: #FEFEFE;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .logo {
+        color: #926123;
+        display: flex;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        width: 200px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+}
+
+

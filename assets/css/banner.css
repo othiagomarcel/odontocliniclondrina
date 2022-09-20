@@ -1,0 +1,127 @@
+@media (min-width: 360px) {
+    .banner {
+        background: linear-gradient(76.08deg, #926123 0%, rgba(223, 160, 80, 0.64) 69.38%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 2em;
+        text-align: center;
+    }
+
+    .banner__content {
+        align-items: center;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        padding: 2em;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .banner__content--titulo {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 2em;
+    }
+
+    .banner__content--texto {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 2em;
+    }
+
+    .botao__agende {
+        align-items: center;
+        background: #0AC68D;
+        border-radius: 10px;
+        display: flex;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        justify-content: space-around;
+        text-decoration: none;
+        width: 288px;
+        height: 43px;
+    }
+
+    .botao__agende--imagem {
+        width: 23px;
+    }
+
+    .botao__agende--texto {
+        color: #FFFFFF;
+    }
+
+    .banner__imagem {
+        display: none;
+    }
+}
+
+@media (min-width: 1366px) {
+    .banner {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .banner__content {
+        align-items: center;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 5rem;
+        text-align: center;
+    }
+
+    .banner__content--titulo {
+        font-size: 36px;
+        font-weight: 600;
+        margin-bottom: 5rem;
+        width: 40rem;
+    }
+
+    .banner__content--texto {
+        margin-bottom: 2rem;
+        width: 40rem;
+    }
+
+    .botao__agende {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background: #0AC68D;
+        border: 0px;
+        border-radius: 20px;
+        width: 415px;
+        height: 74px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        margin-top: 4rem;
+        text-decoration: none;
+        padding: 0 1rem 0 1rem;
+    }
+
+    .botao__agende--texto {
+        color: #FFFFFF;
+        font-size: 24px;
+        font-weight: 500;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    }
+
+    .botao__agende--imagem {
+        width: 38px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .banner__imagem {
+        display: flex;
+        margin-top: 2rem;
+
+    }
+
+    .imagem__capa {
+        width: 700px;
+    }
+
+}
+

@@ -1,0 +1,16 @@
+@media (min-width: 1366px) {
+    .menu__link {
+        color: #926123;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .menu__link.ativo {
+        color: #926123;
+
+    }
+
+    .menu__link:hover {
+        text-decoration: underline;
+    }
+}
