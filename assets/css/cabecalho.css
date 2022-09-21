@@ -3,11 +3,20 @@
         display: none;
     }
 
+    header {
+        background: #FEFEFE;
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        z-index: 1;
+    }
+
     .cabecalho {
         align-items: center;
         display: flex;
         justify-content: space-between;
         padding: 1em;
+        
     }
     
     .cabacalho__logo {
@@ -20,12 +29,14 @@
         align-items: center;
         flex-direction: column;
         background-color: #FEFEFE;
-        opacity: 80%;
+        opacity: 90%;
         width: 100vw;
         position: absolute;
+        z-index: 1;
         top: -100vh;
         transition: .25s;
         margin-top: 4.7em;
+        
     }
     
     
