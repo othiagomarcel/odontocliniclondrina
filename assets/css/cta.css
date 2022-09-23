@@ -1,0 +1,107 @@
+.botao__agende {
+    align-items: center;
+    background: #0AC68D;
+    border-radius: 10px;
+    display: flex;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    justify-content: center;
+    text-decoration: none;
+    width: 230px;
+    height: 43px;
+    gap: 0.5rem;
+}
+
+.botao__agende--imagem {
+    width: 23px;
+}
+
+.botao__agende--texto {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.botao__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao__saibaMais {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #0AC68D;
+    border: 0px;
+    border-radius: 10px;
+    width: 150px;
+    height: 44px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-decoration: none;
+    padding: 0 2rem 0 2rem;
+    margin-top: 0;
+}
+
+.botao__saibaMais--texto {
+    color: #FFFFFF;
+    font-size: 14px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.botao__saibaMais--imagem {
+    width: 24px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+.botao__ligue {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #156ca7;
+    border: 0px;
+    border-radius: 10px;
+    width: 150px;
+    height: 44px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-decoration: none;
+    padding: 0 2rem 0 2rem;
+    margin-top: 1rem;
+}
+
+.botao__ligue--texto {
+    color: #FFFFFF;
+    font-size: 14px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+@media screen and (min-width: 1300px){
+    .botao__agende {
+        width: 330px;
+        height: 50px;
+    }
+    
+    .botao__agende--imagem {
+        width: 30px;
+    }
+    
+    .botao__agende--texto {
+        font-size: 16px;
+    }
+
+    .botao__saibaMais,
+    .botao__ligue {
+        width: 200px;
+        height: 50px;
+    }
+    
+    .botao__saibaMais--texto,
+    .botao__ligue--texto {
+        font-size: 18px;    
+    }
+    
+    .botao__saibaMais--imagem {
+        width: 30px;
+    }
+}

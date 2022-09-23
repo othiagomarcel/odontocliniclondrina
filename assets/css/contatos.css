@@ -1,0 +1,130 @@
+@media screen and (min-width: 230px) {
+    .contatos {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+    }
+    
+    .mapa {
+        width:100%;
+        height: 300px;
+    }
+    
+    .contatos__informacoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #FFFFFF;
+        font-size: 18px;
+        background: #FAC889;
+        padding: 2em 0;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    .contatos__informacoes--titulo {
+        display: flex;
+        flex-wrap: wrap;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    
+    .contatos__informacoes--telefone {
+        padding-top: 1em;
+    }
+    
+    .contatos__informacoes--estacionamento {
+        padding: 2rem 0;
+        font-weight: 500;
+    }
+
+    .estacionamento {
+        display: flex;
+    }
+
+    #pin {
+        background-image: url(../img/pin.png);
+        background-repeat: no-repeat;
+        background-size: 120px;
+    }
+    
+    .contatos__informacoes--endereco {
+        padding: 0 0 2rem 0;
+    }
+}   
+
+@media screen and (min-width: 750px){
+    .contatos {
+        padding: 2em;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+    
+    .mapa {
+        width: 50vw;
+        height: 100%;
+    }
+    
+    .contatos__informacoes {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        color: #FFFFFF;
+        font-size: 16px;
+        background: #FAC889;
+        padding: 0;
+        width: 50vw;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    .contatos__informacoes--titulo {
+        font-size: 18px;
+        font-weight: 500;
+        padding-bottom: 1rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    
+    .contatos__informacoes--telefone {
+        margin-top: 0em;
+    }
+    
+    .contatos__informacoes--estacionamento {
+        
+        margin-top: 1rem;
+        font-weight: 500;
+    }
+    
+    .contatos__informacoes--endereco {
+        margin-top: 0em;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .mapa {
+        width: 50vw;
+        height: 100%;
+    }
+    
+    .contatos__informacoes {
+        font-size: 20px; 
+    }
+    
+    .contatos__informacoes--titulo {
+        font-size: 24px;
+        padding: 0.5rem 1rem;
+    }
+    
+    .contatos__informacoes--estacionamento {
+        margin-top: 0.5rem;
+        font-weight: 500;
+    }
+    
+    .contatos__informacoes--endereco {
+        margin-bottom: 0.5rem;
+    }
+}

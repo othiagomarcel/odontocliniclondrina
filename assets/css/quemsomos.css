@@ -1,0 +1,221 @@
+@media screen and (min-width: 230px) {
+    .quemsomos {
+        background: #EDE8E4;
+        padding: 2em;
+    }
+
+    .quemsomos__titulo {
+        color: #8C6129;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .quemsomos__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .quemsomos__texto {
+        text-align: center;
+        color: #4B4B4B;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding: 1em 0;
+    }
+
+    .card__container {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        align-items: center;
+        justify-content: flex-start;
+        display: flex;
+        flex-wrap: wrap;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .card__imagem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        max-width: 252px;
+    }
+
+    .card__pessoa {
+        color: #926123;
+        font-weight: 600;
+        padding: 1rem 0;
+    }
+
+    .tecnico,
+    .card__descricao {
+        font-size: 14px;
+        font-weight: 400;
+        padding-bottom: 1em;
+    }
+
+    .formacao__item {
+        font-size: 14px;
+        font-weight: 500;
+        padding-bottom: 1rem;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .card__container {
+        align-items: flex-start;
+        justify-content: center;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .card {
+        align-items: flex-start;
+        justify-content: flex-start;
+        display: flex;
+        flex-direction: column;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 252px;
+    }
+
+    .card__pessoa {
+        color: #926123;
+        font-weight: 400;
+        padding-bottom: 1rem;
+        text-align: start;
+    }
+
+    .tecnico,
+    .card__descricao {
+        font-weight: 400;
+        padding-bottom: 1rem;
+    }
+
+    .formacao__item {
+        padding-bottom: 1rem;
+    }
+
+}
+
+
+@media screen and (min-width: 1024px) {
+    .quemsomos__container {
+        flex-direction: row;
+        padding-top: 2rem;
+        gap:1rem
+    }
+
+    .quemsomos__texto {
+        text-align: center;
+        color: #4B4B4B;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding: 1em 0;
+    }
+
+    .card__container {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 1rem;
+    }
+
+    .card {
+        align-items: flex-start;
+        justify-content: flex-start;
+        display: flex;
+        flex-direction: column;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 252px;
+    }
+
+    .card__pessoa {
+        color: #926123;
+        font-weight: 400;
+        padding-bottom: 1rem;
+        text-align: start;
+    }
+
+    .tecnico,
+    .card__descricao {
+        font-weight: 400;
+        padding-bottom: 1rem;
+    }
+
+    .formacao__item {
+        padding-bottom: 1rem;
+    }
+
+}
+
+@media screen and (min-width: 1300px) {
+    .quemsomos__container {
+        flex-direction: row;
+        padding: 2rem 2rem 0 2rem;
+        justify-content: center;
+        gap:2rem;
+    }
+
+    .quemsomos__titulo {
+        font-size: 24px;
+    }
+
+    .quemsomos__texto {
+        text-align: center;
+        color: #4B4B4B;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding: 1em 0;
+        width: 40%;
+    }
+
+    .card__container {
+        align-items: flex-start;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .card {
+        align-items: flex-start;
+        justify-content: flex-start;
+        display: flex;
+        flex-direction: column;
+        margin-left: 1em;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 252px;
+    }
+
+    .card__pessoa {
+        color: #926123;
+        font-weight: 400;
+        padding-bottom: 1rem;
+        text-align: start;
+    }
+
+    .tecnico,
+    .card__descricao {
+        font-weight: 400;
+        padding-bottom: 1rem;
+    }
+
+    .formacao__item {
+        padding-bottom: 1rem;
+    }
+
+}
