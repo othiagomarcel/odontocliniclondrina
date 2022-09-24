@@ -91,11 +91,11 @@
     }
 
     .destaque__texto--titulo {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .destaque__texto--principal {
-        font-size: 20px;
+        font-size: 18px;
         line-height: 30px;
     }
 
