@@ -24,23 +24,35 @@
     <link rel="stylesheet" href="./assets/css/contatos.css">
     <link rel="stylesheet" href="./assets/css/formulario.css">
     <link rel="stylesheet" href="./assets/css/rodape.css">
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5PT5Q4Q');</script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body>
-    <header class="cabacalho">
-        <a class="logo" href="#"><img class="logo__imagem" src="./assets/svg/Logo.svg" alt="Logo Odontoclinic"></a>
-        <nav id="nav">
-            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
-                aria-expanded="false">
-                <span id="hamburger"></span>
-            </button>
-            <ul class="menu" id="menu" role="menu">
-                <li class="menu__item"><a class="menu__link" href="#destaque">Destaque</a></li>
-                <li class="menu__item"><a class="menu__link" href="#tratamentos">Tratamentos</a></li>
-                <li class="menu__item"><a class="menu__link" href="#sobre">Sobre</a></li>
-                <li class="menu__item"><a class="menu__link" href="#contatos">Contato</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="cabecalho">
+            <a class="logo" href="#"><img class="logo__imagem" src="./assets/svg/Logo.svg" alt="Logo Odontoclinic"></a>
+            <nav id="nav">
+                <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                    aria-expanded="false">
+                    <span id="hamburger"></span>
+                </button>
+                <ul class="menu" id="menu" role="menu">
+                    <li class="menu__item"><a class="menu__link" href="#destaque">Destaque</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#tratamentos">Tratamentos</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#sobre">Sobre</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#contatos">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
@@ -51,12 +63,12 @@
                     <h2 class="banner__conteudo--titulo">Odontoclinic Londrina</h2>
                     <h3 class="banner__conteudo--texto">
                         Há mais de oito anos oferecendo o que há de melhor em tecnologia e excelência na odontologia.
-                        Contamos com uma equipe multidiciplinar de especialistas para atender você de forma inividual e
+                        Contamos com uma equipe multidisciplinar de especialistas para atender você de forma individual e
                         humanizada.
                     </h3>
-                    <p class="banner__conteudo--texto">“Sorria, a felicidade pertence à você.”</p>
+                    <p class="banner__conteudo--texto">“Sorria, a felicidade pertence a você.”</p>
 
-                    <a href="https://api.whatsapp.com/send?phone=5543996371993&text=Olá, vim pelo site e gostaria de agendar uma consulta."
+                    <a href="https://api.whatsapp.com/send?phone=554399189768&text=Olá, vim pelo site e gostaria de agendar uma consulta."
                         target="_blank" class="botao__agende">
                         <img class="botao__agende--imagem" src="./assets/svg/fi-brands-whatsapp.svg" alt="">
                         <p class="botao__agende--texto">AGENDE SUA CONSULTA</p>
@@ -67,7 +79,6 @@
                     <img class="imagem__capa" src="./assets/img/img-1951.webp" alt="Irmãs Schell">
                 </div>
             </div>
-
         </section>
 
         <a name="destaque"></a>
@@ -84,11 +95,11 @@
                     <p class="destaque__texto--titulo">ODONTOCLINIC LONDRINA:</p>
                     <h1 class="destaque__texto--principal">
                         <strong>PRIMEIRA CLÍNICA</strong>
-                        ESPECIALIZADA <small>EM</small> IMPLANTESDENTÁRIOS
+                        ESPECIALIZADA <small>EM</small> IMPLANTES DENTÁRIOS
                         <small>PARA</small> <strong>DIABÉTICOS E HIPERTENSOS</strong>
                     </h1>
                     <div class="botao__content">
-                        <a href="https://api.whatsapp.com/send?phone=5543996371993&text=Olá, vim pelo site e gostaria de saber mais sobre IMPLANTES DENTÁRIOS PARA DIABÉTICOS E HIPERTENSOS."
+                        <a href="https://api.whatsapp.com/send?phone=5543988137091&text=Olá, vim pelo site e gostaria de saber mais sobre IMPLANTES DENTÁRIOS PARA DIABÉTICOS E HIPERTENSOS."
                             target="_blank" class="botao__saibaMais">
                             <img class="botao__saibaMais--imagem" src="./assets/svg/fi-brands-whatsapp.svg" alt="">
                             <p class="botao__saibaMais--texto">SAIBA MAIS</p>
@@ -117,7 +128,7 @@
 
                             </p>
                             <div class="botao__content">
-                                <a href="https://api.whatsapp.com/send?phone=5543996371993&text=Olá, vim pelo site e gostaria de saber mais sobre ORTODONTIA."
+                                <a href="https://api.whatsapp.com/send?phone=554399189768&text=Olá, vim pelo site e gostaria de saber mais sobre ORTODONTIA."
                                     class="botao__saibaMais">
                                     <img class="botao__saibaMais--imagem" src="./assets/svg/fi-brands-whatsapp.svg"
                                         alt="">
@@ -130,13 +141,15 @@
                         <img class="imagem__carrossel" src="./assets/img/Alinhadores.webp" alt="Imagem Alinhadores">
                         <div class="tratamento">
                             <h3 class="tratamento__titulo">Alinhadores</h3>
-                            <p class="tratamento__descricao">Prático, rápido e imperceptível, a maneira mais tecnológica
-                                para conquistar o sorriso dos sonhos! 25% mais rápido do que aparelhos convencionais.
+                            <p class="tratamento__descricao">Prático, rápido e imperceptível, a maneira mais
+                                tecnológica
+                                para conquistar o sorriso dos sonhos! 25% mais rápido do que aparelhos
+                                convencionais.
 
 
                             </p>
                             <div class="botao__content">
-                                <a href="https://api.whatsapp.com/send?phone=5543996371993&text=Olá, vim pelo site e gostaria de saber mais sobre ALINHADORES."
+                                <a href="https://api.whatsapp.com/send?phone=5543999189768&text=Olá, vim pelo site e gostaria de saber mais sobre ALINHADORES."
                                     class="botao__saibaMais">
                                     <img class="botao__saibaMais--imagem" src="./assets/svg/fi-brands-whatsapp.svg"
                                         alt="">
@@ -149,12 +162,13 @@
                         <img class="imagem__carrossel" src="./assets/img/Lentes_de_Contato.webp"
                             alt="Imagem Lentes de Contato">
                         <div class="tratamento">
-                            <h3 class="tratamento__titulo">Lentes</h3>
-                            <p class="tratamento__descricao">Buscamos sempre sua melhor versão, garantimos durabilidade
+                            <h3 class="tratamento__titulo">Lentes de Contato</h3>
+                            <p class="tratamento__descricao">Buscamos sempre sua melhor versão, garantimos
+                                durabilidade
                                 e proporcionamos a melhor porcelana que existe no mercado.
                             </p>
                             <div class="botao__content">
-                                <a href="https://api.whatsapp.com/send?phone=5543996371993&text=Olá, vim pelo site e gostaria de saber mais sobre LENTES."
+                                <a href="https://api.whatsapp.com/send?phone=5543999189768&text=Olá, vim pelo site e gostaria de saber mais sobre LENTES."
                                     class="botao__saibaMais">
                                     <img class="botao__saibaMais--imagem" src="./assets/svg/fi-brands-whatsapp.svg"
                                         alt="">
@@ -167,12 +181,11 @@
                         <img class="imagem__carrossel" src="./assets/img/Botox.webp" alt="Imagem Botox">
                         <div class="tratamento">
                             <h3 class="tratamento__titulo">Botox</h3>
-                            <p class="tratamento__descricao">Seja para fins estéticos ou para a melhora de sua qualidade
-                                de vida - quanto ao Bruxismo, por exemplo - você escolheu o lugar certo!
-
+                            <p class="tratamento__descricao">Seja para fins estéticos ou para a melhoria de sua
+                                qualidade de vida, como tratamento de Bruxismo.
                             </p>
                             <div class="botao__content">
-                                <a href="https://api.whatsapp.com/send?phone=5543996371993&text=Olá, vim pelo site e gostaria de saber mais sobre BOTOX."
+                                <a href="https://api.whatsapp.com/send?phone=5543999189768&text=Olá, vim pelo site e gostaria de saber mais sobre BOTOX."
                                     class="botao__saibaMais">
                                     <img class="botao__saibaMais--imagem" src="./assets/svg/fi-brands-whatsapp.svg"
                                         alt="">
@@ -185,13 +198,13 @@
                         <img class="imagem__carrossel" src="./assets/img/Clareamento.webp" alt="Imagem Clareamento">
                         <div class="tratamento">
                             <h3 class="tratamento__titulo">Clareamento</h3>
-                            <p class="tratamento__descricao">Nosso sorriso é o nosso melhor acessório, nosso cartão de
-                                visita! O clareamento dentário é um dos grandes responsáveis pelo impacto de um belo
+                            <p class="tratamento__descricao">Nosso sorriso é o nosso melhor acessório, nosso cartão
+                                de visita! O clareamento dentário é um dos grandes responsáveis pelo impacto de um belo
                                 sorriso. Você tem cuidado do seu?
 
                             </p>
                             <div class="botao__content">
-                                <a href="https://api.whatsapp.com/send?phone=5543996371993&text=Olá, vim pelo site e gostaria de saber mais sobre CLAREAMENTO."
+                                <a href="https://api.whatsapp.com/send?phone=5543999189768&text=Olá, vim pelo site e gostaria de saber mais sobre CLAREAMENTO."
                                     class="botao__saibaMais">
                                     <img class="botao__saibaMais--imagem" src="./assets/svg/fi-brands-whatsapp.svg"
                                         alt="">
@@ -204,12 +217,13 @@
                         <img class="imagem__carrossel" src="./assets/img/Proteses.webp" alt="Imagem Proteses">
                         <div class="tratamento">
                             <h3 class="tratamento__titulo">Próteses</h3>
-                            <p class="tratamento__descricao">Chega de desconforto! Com as próteses dentárias fixas, você
+                            <p class="tratamento__descricao">Chega de desconforto! Com as próteses dentárias fixas,
+                                você
                                 tem sua autoconfiança de volta para sorrir e mastigar sem medo!
 
                             </p>
                             <div class="botao__content">
-                                <a href="https://api.whatsapp.com/send?phone=5543996371993&text=Olá, vim pelo site e gostaria de saber mais sobre PRÓTESES."
+                                <a href="https://api.whatsapp.com/send?phone=5543999189768&text=Olá, vim pelo site e gostaria de saber mais sobre PRÓTESES."
                                     class="botao__saibaMais">
                                     <img class="botao__saibaMais--imagem" src="./assets/svg/fi-brands-whatsapp.svg"
                                         alt="">
@@ -223,13 +237,15 @@
                             alt="Imagem Tratamento de Canal">
                         <div class="tratamento">
                             <h3 class="tratamento__titulo">Tratamento de Canal</h3>
-                            <p class="tratamento__descricao">Proporcionamos todo o conforto e tecnologia para que você
-                                tenha a melhor experiência e resultado em seu tratamento. Te afirmamos que o tratamento
+                            <p class="tratamento__descricao">Proporcionamos todo o conforto e tecnologia para que
+                                você
+                                tenha a melhor experiência e resultado em seu tratamento. Te afirmamos que o
+                                tratamento
                                 de canal em nossa clínica não doi!
 
                             </p>
                             <div class="botao__content">
-                                <a href="https://api.whatsapp.com/send?phone=5543996371993&text=Olá, vim pelo site e gostaria de saber mais sobre TRATAMENTO DE CANAL."
+                                <a href="https://api.whatsapp.com/send?phone=5543999189768&text=Olá, vim pelo site e gostaria de saber mais sobre TRATAMENTO DE CANAL."
                                     class="botao__saibaMais">
                                     <img class="botao__saibaMais--imagem" src="./assets/svg/fi-brands-whatsapp.svg"
                                         alt="">
@@ -247,7 +263,7 @@
                                 Temos um protocolo indolor e diferenciado.
                             </p>
                             <div class="botao__content">
-                                <a href="https://api.whatsapp.com/send?phone=5543996371993&text=Olá, vim pelo site e gostaria de saber mais sobre EXTRAÇÃO DE SISO."
+                                <a href="https://api.whatsapp.com/send?phone=5543999189768&text=Olá, vim pelo site e gostaria de saber mais sobre EXTRAÇÃO DE SISO."
                                     class="botao__saibaMais">
                                     <img class="botao__saibaMais--imagem" src="./assets/svg/fi-brands-whatsapp.svg"
                                         alt="">
@@ -260,13 +276,13 @@
                         <img class="imagem__carrossel" src="./assets/img/Pediatria.webp" alt="Imagem Pediatria">
                         <div class="tratamento">
                             <h3 class="tratamento__titulo">Pediatria</h3>
-                            <p class="tratamento__descricao">Temos uma dentista exclusiva e especializada para nossos
-                                pequenos. Nossa visão não é traumatizar nenhuma criança, e sim transmitir confiança e
-                                tranquilidade nos atendimentos.
-
+                            <p class="tratamento__descricao">Temos uma dentista exclusiva e especializada para
+                                nossos
+                                pequenos. Nossa visão não é traumatizar nenhuma criança, e sim transmitir confiança
+                                e tranquilidade nos atendimentos.
                             </p>
                             <div class="botao__content">
-                                <a href="https://api.whatsapp.com/send?phone=5543996371993&text=Olá, vim pelo site e gostaria de saber mais sobre PEDIATRIA."
+                                <a href="https://api.whatsapp.com/send?phone=5543999189768&text=Olá, vim pelo site e gostaria de saber mais sobre PEDIATRIA."
                                     class="botao__saibaMais">
                                     <img class="botao__saibaMais--imagem" src="./assets/svg/fi-brands-whatsapp.svg"
                                         alt="">
@@ -279,11 +295,11 @@
                         <img class="imagem__carrossel" src="./assets/img/Restauracoes.webp" alt="Imagem Restaurações">
                         <div class="tratamento">
                             <h3 class="tratamento__titulo">Restaurações</h3>
-                            <p class="tratamento__descricao">Um dos grandes aliados na prevenção de doenças graves. E
-                                nós te ajudamos com isso! Não somente uma restauração dentária, mas uma restauração da
-                                qualidade de vida!</p>
+                            <p class="tratamento__descricao">Um dos grandes aliados na prevenção de doenças graves.
+                                E nós te ajudamos com isso! Não somente uma restauração dentária, mas uma restauração
+                                da qualidade de vida!</p>
                             <div class="botao__content">
-                                <a href="https://api.whatsapp.com/send?phone=5543996371993&text=Olá, vim pelo site e gostaria de saber mais sobre RESTAURAÇÕES."
+                                <a href="https://api.whatsapp.com/send?phone=5543999189768&text=Olá, vim pelo site e gostaria de saber mais sobre RESTAURAÇÕES."
                                     class="botao__saibaMais">
                                     <img class="botao__saibaMais--imagem" src="./assets/svg/fi-brands-whatsapp.svg"
                                         alt="">
@@ -296,11 +312,12 @@
                         <img class="imagem__carrossel" src="./assets/img/Clinico_Geral.webp" alt="Imagem Clínico Geral">
                         <div class="tratamento">
                             <h3 class="tratamento__titulo">Clínico Geral</h3>
-                            <p class="tratamento__descricao">Seja qual for sua necessidade, aqui na Odontoclinic temos o
+                            <p class="tratamento__descricao">Seja qual for sua necessidade, aqui na Odontoclinic
+                                temos o
                                 protocolo ideal para você!
                             </p>
                             <div class="botao__content">
-                                <a href="https://api.whatsapp.com/send?phone=5543996371993&text=Olá, vim pelo site e gostaria de saber mais sobre CLÍNICO GERAL."
+                                <a href="https://api.whatsapp.com/send?phone=5543999189768&text=Olá, vim pelo site e gostaria de saber mais sobre CLÍNICO GERAL."
                                     class="botao__saibaMais">
                                     <img class="botao__saibaMais--imagem" src="./assets/svg/fi-brands-whatsapp.svg"
                                         alt="">
@@ -319,17 +336,17 @@
                 <div class="swiper-button-next"></div>
 
             </div>
-
+            </div>
         </section>
 
-        <a name="quemsomos"></a>
+        <a name="sobre"></a>
         <section class="quemsomos">
             <h2 class="quemsomos__titulo">IRMÃS SCHELL </h2>
             <div class="quemsomos__container">
                 <div class="quemsomos__texto">
                     <p>Somos empresárias, cristãs e mamães que dedicamos nossas carreiras em transformar vidas através
                         do sorriso. <br><br>
-                        Com essa visão a odontoclinic londrinas nasceu em 2015.
+                        Com essa visão a ODONTOCLINIC LONDRINA nasceu em 2015.
                         Nossa missão é oferecer o que há de melhor na odontologia com dentistas especialistas,
                         tecnologia de ponta e materiais de alta qualidade, dentro dos nossos valores que são: ambiente
                         seguro, honestidade e ética.
@@ -343,7 +360,7 @@
                         </p>
 
                         <p class="card__descricao">
-                            Doutora Mestre e Especialista em Endodontia pela UNICAMP, com 17 anos de experiência e mais
+                            Doutora, Mestre e Especialista em Endodontia pela UNICAMP, com 17 anos de experiência e mais
                             de 13.000 canais finalizados.
                         </p>
                         <p class="tecnico">*Responsável Técnica</p>
@@ -360,7 +377,7 @@
                     <div class="card">
                         <img class="card__imagem" src="./assets/img/Karen.webp" alt="">
                         <p class="card__pessoa">
-                            Dra. Dra. Karen Schell
+                            Dra. Karen Schell
                         </p>
 
                         <p class="card__descricao">
@@ -377,84 +394,89 @@
                     </div>
                 </div>
             </div>
-
         </section>
 
         <a name="contatos"></a>
-        <section class="contatos">
-            <div class="contatos__mapa">
-                <iframe class="mapa"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.0053780094104!2d-51.158509584521305!3d-23.315563658447207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb4360d3ebb0d5%3A0x2faf5ceca98ea84e!2sOdontoclinic%20Londrina!5e0!3m2!1spt-BR!2sbr!4v1663560885185!5m2!1spt-BR!2sbr"
-                    style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="contatos__informacoes">
-                <p class="contatos__informacoes--titulo">AGENDE SUA CONSULTA E SOLICITE <br>
-                    UM ORÇAMENTO</p>
-                <p class="contatos__informacoes--endereco">Nosso Endereço</p>
-                <address class="contatos__informacoes--endereco">Rua Mato Grosso, 764 – Centro</address>
+        <section class="container__contatos">
+            <div class="contatos">
+                <div class="contatos__mapa">
+                    <iframe class="mapa"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.0053780094104!2d-51.158509584521305!3d-23.315563658447207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb4360d3ebb0d5%3A0x2faf5ceca98ea84e!2sOdontoclinic%20Londrina!5e0!3m2!1spt-BR!2sbr!4v1663560885185!5m2!1spt-BR!2sbr"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contatos__informacoes">
+                    <p class="contatos__informacoes--titulo">AGENDE SUA CONSULTA E SOLICITE <br>
+                        UM ORÇAMENTO</p>
+                    <p class="contatos__informacoes--endereco">Nosso Endereço</p>
+                    <address class="contatos__informacoes--endereco">Rua Mato Grosso, 763 – Centro</address>
 
-                <div class="botao__content">
-                    <a href="https://api.whatsapp.com/send?phone=5543996371993&text=Olá, vim pelo site e gostaria de agendar uma consulta."
-                        class="botao__saibaMais">
-                        <img class="botao__saibaMais--imagem" src="./assets/svg/fi-brands-whatsapp.svg" alt="">
-                        <p class="botao__saibaMais--texto">AGENDE AQUI</p>
+                    <div class="botao__content">
+                        <a href="https://api.whatsapp.com/send?phone=5543999189768&text=Olá, vim pelo site e gostaria de agendar uma consulta."
+                            class="botao__saibaMais">
+                            <img class="botao__saibaMais--imagem" src="./assets/svg/fi-brands-whatsapp.svg" alt="">
+                            <p class="botao__saibaMais--texto">AGENDE AQUI</p>
+                        </a>
+                    </div>
+                    <p class="contatos__informacoes--telefone">ou</p>
+
+                    <a href="tel:+554333210025" class="botao__ligue">
+                        <p class="botao__ligue--texto">LIGUE (43) 3321-0025</p>
                     </a>
+                    <div class="estacionamento">
+                        <span id="pin"></span>
+                        <p class="contatos__informacoes--estacionamento">ESTACIONE COM FACILIDADE</p>
+                    </div>
+                    <p class="contatos__informacoes--endereco">Rua Mato Grosso, 717</p>
                 </div>
-                <p class="contatos__informacoes--telefone">ou</p>
-
-                <a href="tel:+554333210025" class="botao__ligue">
-                    <p class="botao__ligue--texto">LIGUE (43) 3321-0025</p>
-                </a>
-                <div class="estacionamento">
-                    <span id="pin"></span>
-                    <p class="contatos__informacoes--estacionamento">ESTACIONE COM FACILIDADE</p>
-                </div>
-                <p class="contatos__informacoes--endereco">Rua Mato Grosso, 717</p>
             </div>
 
         </section>
 
-        <section class="formulario__container">
-            <div>
-                <h2>Para mais informações, fale conosco:</h2>
+        <section class="container">
+            <div class="formulario__container">
+                <div>
+                    <h2>Para mais informações, fale conosco:</h2>
+                </div>
+                <form class="itens__container" action="https://api.sheetmonkey.io/form/2pwPkEQVKT34vWySxtsGxB"
+                    method="post">
+                    <div class="item__formulario">
+                        <label for="nome">Seu Nome:</label>
+                        <input type="text" name="Nome" id="nome" required>
+                    </div>
+                    <div class="item__formulario">
+                        <label for="telefone">Telefone com DDD:</label>
+                        <input type="tel" name="Telefone" id="telefone" maxlength="14" onkeypress="formatar('##-#-####-####', this)" placeholder="Ex.: (00) 0 0000-0000" required>
+                    </div>
+                    <div class="item__formulario">
+                        <label for="mensagem">Mensagem</label>
+                        <input type="text" name="Mensagem" id="mensagem" required>
+                    </div>
+
+                    <div class="enviar">
+                        <button type="submit" class="enviar__formulario" value="Submit">Enviar</button>
+                    </div>
+
+
+
+                </form>
             </div>
-            <form class="itens__container" action="https://api.sheetmonkey.io/form/2pwPkEQVKT34vWySxtsGxB"
-                method="post">
-                <div class="item__formulario">
-                    <label for="nome">Seu Nome:</label>
-                    <input type="text" name="Nome" id="nome" required>
-                </div>
-                <div class="item__formulario">
-                    <label for="telefone">Telefone:</label>
-                    <input type="tel" name="Telefone" id="telefone" required>
-                </div>
-                <div class="item__formulario">
-                    <label for="mensagem">Mensagem</label>
-                    <input type="text" name="Mensagem" id="mensagem" required>
-                </div>
-
-                <div class="enviar">
-                    <button type="submit" class="enviar__formulario" value="Submit">Enviar</button>
-                </div>
-
-
-
-            </form>
 
         </section>
 
 
     </main>
 
-    <footer>
+    <footer class="rodape">
         <div class="rodape__container">
             <div class="rodape__container--texto">
                 <div class="rodape__texto">
                     <h2 class="rodape__texto--titulo">AGENDE SUA CONSULTA</h2>
-                    <p>Fone: (43) 3321-0025 | WhatsApp: (43) 99xxx-xxxx</p>
+                    <p>Fone: (43) 3321-0025 | WhatsApp: (43) 98813-7091</p>
                     <p>Endereço: Rua Mato Grosso, 763 – Centro</p>
                     <p>Londrina – PR</p>
+                    <p>CRO 2995</p>
+                    <p></p>
                 </div>
                 <div class="rodape__icone">
                     <a href="https://www.facebook.com/odontocliniclondrina" target="_blank">
@@ -497,15 +519,26 @@
         });
     </script>
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NNTG0N1D1Q"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
 
-        gtag('config', 'G-NNTG0N1D1Q');
+    <script>
+        function formatar(mascara, documento){
+            var i = documento.value.length;
+            var saida = mascara.substring(0,1);
+            var texto = mascara.substring(i);
+
+            if (texto.substring(0,1) != saida){
+                documento.value += texto.substring(0,1);
+            }
+        }
     </script>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5PT5Q4Q" height="0" width="0"
+            style="display:none;visibility:hidden">
+        </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
 </body>
 
